@@ -42,7 +42,7 @@ export function Register() {
 	const { colors } = useTheme();
 	return (
 		<VStack flex={1}  bg='gray.600' p={6} >
-            <Header title='Nova solicitação'/>
+            <Header title='Solicitação'/>
             <Input
             placeholder='Numero do Patrimônio'
             onChangeText={setPatrimony}
